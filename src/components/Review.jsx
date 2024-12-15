@@ -1,19 +1,18 @@
 import React from "react";
 import ReviewCard from "../layouts/ReviewCard";
-import img1 from "../assets/img/pic1.png";
-import img2 from "../assets/img/pic2.png";
-import img3 from "../assets/img/pic3.png";
 
 const Review = () => {
   return (
-    <div className=" min-h-screen flex flex-col items-center justify-center md:px-32 px-5">
-      <h1 className=" text-4xl font-semibold text-center lg:pt-16 pt-24 pb-10">
-        Customer's Review
+    <div className="flex flex-col items-center justify-center bg-white px-[20px] md:px-[100px] pt-[80px]">
+      <h1 className="text-4xl font-semibold text-[#cb6ce6] text-center pb-10">
+        What Our Customers Are Saying
       </h1>
-      <div className=" flex flex-col md:flex-row gap-5 mt-5">
-        <ReviewCard img={img1} name="Sophia Azura" />
-        <ReviewCard img={img2} name="John Deo" />
-        <ReviewCard img={img3} name="Victoria Zoe" />
+
+      {/* Customer Reviews */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <ReviewCard img="/avatar1.png" name="Sophia Azura" />
+        <ReviewCard img="/avatar2.png" name="John Deo" />
+        <ReviewCard img="/avatar3.png" name="Victoria Zoe" />
       </div>
     </div>
   );
