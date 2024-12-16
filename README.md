@@ -66,8 +66,8 @@ Follow the steps below to get the project up and running on your local machine:
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/TAIJULAMAN/classroom.git
-cd classroom-website
+git clone https://github.com/TAIJULAMAN/FoodShop.git
+cd foodshop-website
 ```
 
 ### 2. **Install Dependencies**
